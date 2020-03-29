@@ -1,0 +1,4 @@
+gcc -pthread -std=gnu99 -O2 -s pi.c -o pi
+
+
+64.4	39.8

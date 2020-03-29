@@ -1,0 +1,9 @@
+執行方式：
+
+unzip HW2.zip
+cd HW2
+make clean
+make (or) make DATASIZE=LARGE  # 評分時是使用後者
+taskset -c 0 ./bin/cg
+taskset -c 0,1 ./bin/cg
+taskset -c 0,1,2,3 ./bin/cg

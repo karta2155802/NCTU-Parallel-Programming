@@ -1,0 +1,2 @@
+/home/PP-f19/MPI/bin/mpicc conduction.c -o conduction
+/home/PP-f19/MPI/bin/mpiexec -npernode 1 --hostfile hostfile conduction

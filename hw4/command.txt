@@ -1,0 +1,2 @@
+gcc serial_wave.c -o serial_wave -lm
+nvcc 0516319.cu 
